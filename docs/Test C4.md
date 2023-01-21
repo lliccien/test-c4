@@ -30,22 +30,23 @@ Supporting elements: People (e.g. users, actors, roles, or personas) and softwar
 
 **Intended audience**: Everybody, both technical and non-technical people, inside and outside of the software development team.
 
-``` mermaid
----
-title: Example Git diagram
----
-gitGraph
-   commit
-   commit
-   branch develop
-   checkout develop
-   commit
-   commit
-   checkout main
-   merge develop
-   commit
-   commit
+```mermaid
+    gitGraph
+       commit
+       commit
+       commit
+
 ```
+
+<pre class="mermaid">
+    <code>
+    gitGraph
+       commit
+       commit
+       commit
+
+    </code>
+</pre>
 
 ## 1 Internet Banking System
 
